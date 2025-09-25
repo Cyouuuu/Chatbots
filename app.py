@@ -62,7 +62,7 @@ st.write("Interact with the chatbot by typing or using quick action buttons belo
 # Quick action buttons (safe pattern)
 # --------------------------
 col1, col2, col3 = st.columns(3)
-if col1.button("📝 Create Account"):
+if col1.button("📝 Create"):
     st.session_state.last_action = "create account"
 if col2.button("📦 Courses"):
     st.session_state.last_action = "courses"
